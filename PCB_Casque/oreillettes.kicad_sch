@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "69e2e666-31d0-4576-9834-b9ca786ba3fd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 60.96 22.86)
+		(size 134.62 77.47)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "161b6fdc-b23a-4958-bd9a-5c6e15a8cc5a")
+		(property "Sheetname" "gauche"
+			(at 60.96 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gauche.kicad_sch"
+			(at 60.96 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB_Casque"
+				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b/7d06346a-fe76-4ab6-9707-50faa4e5ebe1"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 113.03)
+		(size 134.62 77.47)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abc21dd5-d681-4d80-89d7-b7a012fadb72")
+		(property "Sheetname" "droite"
+			(at 35.56 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gauche.kicad_sch"
+			(at 35.56 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB_Casque"
+				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b/7d06346a-fe76-4ab6-9707-50faa4e5ebe1"
+					(page "11")
+				)
+			)
+		)
+	)
+)

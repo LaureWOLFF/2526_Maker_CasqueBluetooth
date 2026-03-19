@@ -1,0 +1,168 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "48d0e2c0-508a-4381-862f-f101120e8465")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 129.54 82.55) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b84cb4-7073-484f-8cd0-a9bdba1a7a34")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bb4637-cd1e-4199-bdf0-4467c2629571")
+	)
+	(sheet
+		(at 138.43 66.04)
+		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ac5a1a9-9473-4d46-918e-2d7727e6eab0")
+		(property "Sheetname" "hautparleurs"
+			(at 138.43 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hautparleurs.kicad_sch"
+			(at 138.43 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ampli neg" input
+			(at 138.43 76.2 180)
+			(uuid "ac9b1e42-4a56-4421-b18e-14a37a1c38fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ampli pos" input
+			(at 138.43 82.55 180)
+			(uuid "b3b8027c-801c-4f3b-9425-460755241799")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_Casque"
+				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b/7d06346a-fe76-4ab6-9707-50faa4e5ebe1/161b6fdc-b23a-4958-bd9a-5c6e15a8cc5a"
+					(page "7")
+				)
+				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b/7d06346a-fe76-4ab6-9707-50faa4e5ebe1/abc21dd5-d681-4d80-89d7-b7a012fadb72"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 66.04)
+		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc93eb1d-99ef-4ed6-9406-92ce5580de0b")
+		(property "Sheetname" "DAC ampli"
+			(at 99.06 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DacAmpli.kicad_sch"
+			(at 99.06 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ampli neg" output
+			(at 129.54 76.2 0)
+			(uuid "f78c62b3-1683-445e-bdee-31cf28a1c3ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ampli pos" output
+			(at 129.54 82.55 0)
+			(uuid "3edad4dc-32c5-4f94-bd09-1f06a82469d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBat(3.7V)" bidirectional
+			(at 99.06 80.01 180)
+			(uuid "6b7908d8-b112-4fb1-a980-912bef0bdd21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_Casque"
+				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b/7d06346a-fe76-4ab6-9707-50faa4e5ebe1/161b6fdc-b23a-4958-bd9a-5c6e15a8cc5a"
+					(page "6")
+				)
+				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b/7d06346a-fe76-4ab6-9707-50faa4e5ebe1/abc21dd5-d681-4d80-89d7-b7a012fadb72"
+					(page "12")
+				)
+			)
+		)
+	)
+)
