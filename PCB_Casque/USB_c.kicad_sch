@@ -1175,7 +1175,7 @@
 		)
 		(uuid "f1cc7ea6-933e-4097-8196-01da97bc75ad")
 	)
-	(hierarchical_label "D-"
+	(hierarchical_label "DN"
 		(shape output)
 		(at 149.86 82.55 0)
 		(effects
@@ -1186,7 +1186,7 @@
 		)
 		(uuid "628e1658-7116-4bb2-821a-7600a0e5f25b")
 	)
-	(hierarchical_label "D+"
+	(hierarchical_label "DP"
 		(shape output)
 		(at 146.05 87.63 0)
 		(effects

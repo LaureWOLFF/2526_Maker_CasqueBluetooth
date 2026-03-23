@@ -1141,7 +1141,7 @@
 				(justify left top)
 			)
 		)
-		(pin "D+" bidirectional
+		(pin "DP" bidirectional
 			(at 48.26 58.42 270)
 			(uuid "a1c72586-d109-4b3d-b1da-d91248e99d69")
 			(effects
@@ -1151,7 +1151,7 @@
 				(justify left)
 			)
 		)
-		(pin "D-" bidirectional
+		(pin "DN" bidirectional
 			(at 45.72 58.42 270)
 			(uuid "e1e70531-45b4-46a0-b018-b5762e5c69b1")
 			(effects
@@ -1213,7 +1213,7 @@
 				(justify left top)
 			)
 		)
-		(pin "D+" bidirectional
+		(pin "DP" bidirectional
 			(at 185.42 96.52 180)
 			(uuid "7a0dca93-1139-4897-b323-0823972f01fd")
 			(effects
@@ -1223,7 +1223,7 @@
 				(justify left)
 			)
 		)
-		(pin "D-" bidirectional
+		(pin "DN" bidirectional
 			(at 185.42 99.06 180)
 			(uuid "dc953d93-a492-4200-be7f-97ca92ca1a36")
 			(effects
@@ -1379,6 +1379,56 @@
 			(project "PCB_Casque"
 				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 124.46)
+		(size 74.93 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed521725-d717-4807-885d-38958dadbdc4")
+		(property "Sheetname" "trou_fixation"
+			(at 196.85 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trou_fixation.kicad_sch"
+			(at 196.85 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB_Casque"
+				(path "/dd9a0253-5793-4002-9ba2-74fe57888e3b"
+					(page "12")
 				)
 			)
 		)

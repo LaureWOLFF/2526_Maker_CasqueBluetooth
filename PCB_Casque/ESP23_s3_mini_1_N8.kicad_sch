@@ -2557,7 +2557,7 @@
 		)
 		(uuid "a90fe09a-5c99-4caf-8c4f-769933a67d8e")
 	)
-	(hierarchical_label "D-"
+	(hierarchical_label "DN"
 		(shape bidirectional)
 		(at 175.26 73.66 0)
 		(effects
@@ -2568,7 +2568,7 @@
 		)
 		(uuid "b96426e3-e288-4145-b640-74856acf54b5")
 	)
-	(hierarchical_label "D+"
+	(hierarchical_label "DP"
 		(shape bidirectional)
 		(at 173.99 76.2 0)
 		(effects
